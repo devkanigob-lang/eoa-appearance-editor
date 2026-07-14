@@ -92,7 +92,7 @@ ue4ss\Mods\AppearanceEditor\Scripts\main.lua
   `%LOCALAPPDATA%\EchoesofAincrad\Saved\SaveGames\SaveData.sav`
   適用前にこのファイルをコピーしておけば、いつでも元に戻せます。
 - 本MODは**外見データのみ**を編集します。レベル・所持品・クエスト等は変更しません。
-- **「形」はリアルタイムに変わりません**（ゲームの仕様上、保存→再ロードで反映）。色のみライブ反映できます。
+- **「形」はリアルタイムに変わりません**（ゲームの仕様上、保存→再ロードで反映）。一部の色のみライブ反映できます。
 - ノートPC等で**テンキーが無い**場合は、`Scripts\main.lua` 末尾の `Key.NUM_ONE`〜`Key.NUM_FOUR` を
   `Key.F1`〜`Key.F4` などに書き換えてください（変更後はゲーム再起動）。
 - うまくいかない時は `...\Binaries\Win64\ue4ss\appedit_probe.txt` に動作ログが残ります。
